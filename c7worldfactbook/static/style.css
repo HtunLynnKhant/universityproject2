@@ -1,0 +1,99 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    
+    height: 800px;
+}
+header{
+    
+    width: 100%;
+    height: 50px;
+    
+}
+.hh1{
+    font-style: italic;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    color: rgb(29, 28, 27);
+}
+.con{
+    
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.d2{
+    flex: 1;
+    
+    
+}
+.d3{
+    flex: 2;
+   
+}
+.d4{
+    
+    height: 200px;
+    display: flex;
+}
+.d5{
+    height: 500px;
+    display: flex;
+}
+.div6{
+    
+    flex: 1;
+    border-left-color: black;
+}
+.div7{
+    border-left-color: black;
+    flex: 1;
+}
+.div8{
+    border-left-color: black;
+    flex: 1;
+}
+.i1{
+    padding-left: 10px;
+}
+.hh2{
+    padding-top: 1px;
+}
+.r1{
+    /*background-color: rgb(226, 164, 164);*/
+    height: 100px;
+}
+.r2{
+    /*background-color: rgb(206, 113, 198);*/
+    display: flex;
+    height: 600px;
+}
+.r3{
+    /*background-color: rgb(230, 202, 81);*/
+    flex: 1;
+    height: 600px;
+}
+.r4{
+    /*background-color: rgb(22, 107, 72);*/
+    flex: 1;
+    height: 600px;
+}
+#countrieslist{
+    display: inline-block;
+    height: 80vh;
+    overflow-y: auto;
+}
+img{
+    width: 100px;
+    border: solid black;
+}
+.t1{
+    flex: 1;
+}
+.t2{
+    flex: 1;
+}
+#countrieslist div.hide{
+    display:none;
+}
